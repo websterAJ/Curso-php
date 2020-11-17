@@ -29,7 +29,23 @@ switch ($user) {
 		echo "usted no a indicado ningun usuario"."</br>";
 		break;
 }
+// areglos o array de datos
+
 $array = array(1,2,3,4,5,6,7,8,9,10);
+$matriz = array(
+	'0'=>array("00","01","02"),
+	'1'=>array("10","11","12"),
+	'2'=>array("20","21","22")
+);
+
+for ($i=0; $i < count($matriz); $i++) { 
+	for ($j=0; $j < count($matriz[$i]); $j++) { 
+		echo $matriz[$i][$j]."-";
+	}
+	echo "</br>";
+}
+
+// ciclos o bucles
 for ($i=0; $i < count($array); $i++) { 
 	echo $array[$i]."</br>";
 }
