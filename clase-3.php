@@ -23,6 +23,8 @@ function conectar($host,$user,$pass,$db)
 	}
 	return $conn;
 }
+//CREATE READ UPDATE DELETE
+//CRUD
 
 /**
  * Metodo SelectAll
